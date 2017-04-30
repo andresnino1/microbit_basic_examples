@@ -14,7 +14,7 @@ GPIO.setup(23,GPIO.OUT)
 GPIO.output(23,True)
 ```
 
-Compare that with the alternative:
+Compare that with the microbit:
 
 ```
 from microbit import *
