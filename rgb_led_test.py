@@ -8,7 +8,7 @@
 from microbit import *
 
 
-# WTF??? my pin input and output is reversed.  0 outputs, 1 inputs digital
+# WTH??? my pin input and output is reversed.  0 outputs, 1 inputs digital
 # and the same for analog: 1023 is low, 1 is high?
 
 
