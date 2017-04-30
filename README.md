@@ -30,13 +30,13 @@ pin0.write_digital(1)
 
 You can't get much simpler!  Just import everything from microbit (using an asterisk) and you have what you need.  Then just identify the pin you want to write or read from.
 
-Now, any time you import a library with asterisk it can make your code a little less readable, but the alternative is just as easy to implement (and you should consider using this style if you are new to programming, it will help with your memory for libraries):
+For brevity I have used the asterisk, but any time you import a library with asterisk it can make your code a little less readable. Luckily, the alternative is just as easy to implement (and you should consider using this style if you are new to programming, it will help with your memory for libraries):
 ```
 import microbit
 
 microbit.MicroBitDigitalPin.pin0.write_digital(1)
 ```
-Granted its lengthier, but makes sense just by looking at it right?  If you are wondering where I learned to use MicroBitDigitalPin, I learned from the following link:
+Though its lengthier it makes sense just by looking at it right?  If you are wondering where I learned to use MicroBitDigitalPin, I learned from the following link:
 
 https://microbit-micropython.readthedocs.io/en/latest/pin.html
 
