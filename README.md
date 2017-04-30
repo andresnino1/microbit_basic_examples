@@ -2,6 +2,8 @@
 
 Repositories to house tests conducted with the microbit.
 
+**CAUTION** Before you read the code in this repository, you should know something strange has occurred on my microbit.  It would seem that to set my pin to high (run electricity through a pin) I need to set my pin to 0.  This is not typical behavior.
+
 ### If you're interested, read the docs!
 
 Seriously. If you are visiting this repository, be bold! Take a look at the following link:
