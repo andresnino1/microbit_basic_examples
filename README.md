@@ -1,8 +1,10 @@
 # Micro Bit Basic Examples
 
-Repositories to house tests conducted with the microbit.  
+Repositories to house tests conducted with the microbit.
 
-If you are visiting this repository, be bold! Take a look at the following link:
+### If you're interested, read the docs!
+
+Seriously. If you are visiting this repository, be bold! Take a look at the following link:
 * https://microbit-micropython.readthedocs.io/en/latest/
 
 Coding documentation is something I found deplorable as a newcomer. 7 times out of 10 the documentation you are viewing is written with a highly technical vocabulary, abstract concepts, and a lack of concrete examples.  
@@ -26,7 +28,7 @@ pin0.write_digital(1)
 
 You can't get much simpler!  Just import everything from microbit (using an asterisk) and you have what you need.  Then just identify the pin you want to write or read from.
 
-Now, any time you import a whole library it can make your code a little less readable, but the alternative is just as easy to implement.  Import from microbit only the portion of code you wish to use.  In this example:
+Now, any time you import a library with asterisk it can make your code a little less readable, but the alternative is just as easy to implement (and you should consider using this style if you are new to programming, it will help with your memory for libraries):
 ```
 import microbit
 
@@ -35,9 +37,5 @@ microbit.MicroBitDigitalPin.pin0.write_digital(1)
 Granted its lengthier, but makes sense just by looking at it right?  If you are wondering where I learned to use MicroBitDigitalPin, I learned from the following link:
 
 https://microbit-micropython.readthedocs.io/en/latest/pin.html
-
-*Note: I will say, one caveat you may experience with the microbit is an inversion of the pin values: for me, 0 = "on" and 1 = "off".  This is not typical behavior.*
-
-
 
 Feel free to browse my code or contribute your examples! Any form of participation is welcome.
