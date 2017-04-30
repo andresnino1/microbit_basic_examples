@@ -25,3 +25,7 @@ pin0.write_digital(1)
 You can't get much simpler!  Just import everything from microbit (using an asterisk) and you have what you need.  Then just identify the pin you want to write or read from.
 
 *Note: I will say, one caveat you may experience with the microbit is an inversion of the pin values: for me, 0 = "on" and 1 = "off".  This is not typical behavior.*
+
+
+
+Feel free to browse my code or contribute your examples! Any form of participation is welcome.
