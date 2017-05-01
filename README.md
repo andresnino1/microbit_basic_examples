@@ -30,7 +30,7 @@ pin0.write_digital(1)
 
 You can't get much simpler!  Just import everything from microbit (using an asterisk) and you have what you need.  Then just identify the pin you want to write or read from.
 
-For brevity I have used the asterisk, but any time you import a library with asterisk it can make your code a little less readable. Luckily, the alternative is just as easy to implement (and you should consider using this style if you are new to programming, it will help with your memory for libraries and your understanding of class structure):
+For brevity I have used the asterisk, but any time you import a library with asterisk it can make your code a little less readable if you aren't familiar with which functions are drawn from the library. Luckily, the alternative is just as easy to implement (and you should consider using this style if you are new to programming, it will help with your memory for libraries and your understanding of class structure):
 ```
 import microbit
 
