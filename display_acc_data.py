@@ -9,6 +9,8 @@ def display_acc_data():
     display.scroll(my_send[0])
     display.scroll("y")
     display.scroll(mysend[1])
+    display.scroll("z")
+    display.scroll(mysend[2])
     sleep(800)
     
 while True:
