@@ -36,7 +36,7 @@ import microbit
 
 microbit.MicroBitDigitalPin.pin0.write_digital(1)
 ```
-Though its lengthier it makes sense just by looking at it right?  If you are wondering where I learned to use MicroBitDigitalPin, I learned from the following link (use ctrl f or f3 in your browser to search for MicroBitDigitalPin):
+Though its lengthier it makes sense just by looking at it right?  If you are wondering where I learned to use MicroBitDigitalPin, I learned from the following link (use ctrl f or f3 in your browser to search for MicroBitDigitalPin when you get to the site):
 
 https://microbit-micropython.readthedocs.io/en/latest/pin.html
 
