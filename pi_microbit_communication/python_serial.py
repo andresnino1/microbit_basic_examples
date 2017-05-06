@@ -1,4 +1,4 @@
-# This file goes on the pc you are connecting to the microbit.  Only tested on raspberry pi.
+# This file goes on the pc you are connecting to the microbit.  Only tested on raspberry pi, used Python2 (3 should work)
 import serial
 import time
 
