@@ -2,6 +2,7 @@
 import serial
 import time
 
+# Note: the port may actually be ttyACM1, etc. depending on what you have pluggded in to your pc and in what order they were recognized
 PORT = "/dev/ttyACM0"
 BAUD = 115200
 s = serial.Serial(PORT)
